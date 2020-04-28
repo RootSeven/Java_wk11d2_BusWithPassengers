@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362cce5e-5e4a-4ab0-a37e-cdc46cf48fc5" name="Default Changelist" comment="" />
+    <list default="true" id="362cce5e-5e4a-4ab0-a37e-cdc46cf48fc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BusStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BusStopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BusTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1bAYteVJuo0VqoM3lZb1EWSI4nl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,11 +42,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.BusTest.busCanRemovePassenger">
+  <component name="RunManager" selected="JUnit.All in Java_BusWithPassengers">
     <configuration name="All in Java_BusWithPassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_BusWithPassengers" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusStopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_BusWithPassengers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusStopTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusStopTest.canAddPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_BusWithPassengers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusStopTest" />
+      <option name="METHOD_NAME" value="canAddPerson" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -50,21 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusTest.busCanAddPassengerAtCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BusTest.canPickUpPassenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_BusWithPassengers" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BusTest" />
-      <option name="METHOD_NAME" value="busCanAddPassengerAtCapacity" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BusTest.busCanRemovePassenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_BusWithPassengers" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BusTest" />
-      <option name="METHOD_NAME" value="busCanRemovePassenger" />
+      <option name="METHOD_NAME" value="canPickUpPassenger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,10 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BusTest.busCanRemovePassenger" />
-        <item itemvalue="JUnit.BusTest.busCanAddPassengerAtCapacity" />
-        <item itemvalue="JUnit.BusTest" />
         <item itemvalue="JUnit.All in Java_BusWithPassengers" />
+        <item itemvalue="JUnit.BusTest.canPickUpPassenger" />
+        <item itemvalue="JUnit.BusTest" />
+        <item itemvalue="JUnit.BusStopTest" />
+        <item itemvalue="JUnit.BusStopTest.canAddPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -109,21 +129,21 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1588078256277" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1588079815638">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1588082344254">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1588079815638" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1588079815634">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1588082344254" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1588082344251">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1588079815634" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1588079815633">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1588082344251" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1588082344249">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1588079815633" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1588079815636">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1588082344249" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1588082344252">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1588079815636" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1588082344252" />
   </component>
 </project>
